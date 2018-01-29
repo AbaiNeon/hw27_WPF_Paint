@@ -1,0 +1,11 @@
+﻿<Window x:Class="hw27_WPF_Paint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Rectangle Name="myRect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="202" Margin="54,26,0,0" Stroke="Black" VerticalAlignment="Top" Width="254"/>
+        <Label Name="myLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="54,228,0,0" VerticalAlignment="Top" Width="254"/>
+        <Button Content="Insert" HorizontalAlignment="Left" Height="26" Margin="355,94,0,0" VerticalAlignment="Top" Width="93" Click="ButtonInsertClick"/>
+
+    </Grid>
+</Window>
